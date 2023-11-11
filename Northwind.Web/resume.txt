@@ -1,0 +1,18 @@
+Request y response.
+
+
+Una request consta de dos partes: headers y body (se manda un html)
+
+Una request tiene verbos:  (R) GET,  (C) POST,  (U) UPDATE/PUT y (D) DELETE.
+
+
+El cliente mnada una reqeuste con un verbo, y eso nos da una posible respuesta: esta clasificado por las centenas: 100, 200, 300, 400 -> 404 (errores del fronted), 500 -> 502 (errores del  backed).
+
+Create ---> 201
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "76gXv1G2MlwAMKZ0X8Myq7/QtfeDqa++o0n8jdEa9J8=",
+  "Source": "Northwind.Web",
+  "BasePath": "_content/Northwind.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Northwind.Web\\wwwroot",
+      "Source": "Northwind.Web",
+      "ContentRoot": "C:\\Users\\aguil\\Desktop\\avanzada\\PA17FAgo-Dic2023\\3P\\Northwind.Web\\wwwroot\\",
+      "BasePath": "_content/Northwind.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\aguil\\Desktop\\avanzada\\PA17FAgo-Dic2023\\3P\\Northwind.Web\\wwwroot\\img\\trash.png",
+      "SourceId": "Northwind.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aguil\\Desktop\\avanzada\\PA17FAgo-Dic2023\\3P\\Northwind.Web\\wwwroot\\",
+      "BasePath": "_content/Northwind.Web",
+      "RelativePath": "img/trash.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\trash.png"
+    }
+  ]
+}

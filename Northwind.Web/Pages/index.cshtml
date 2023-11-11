@@ -1,0 +1,41 @@
+@page
+ @model Web.index.IndexModel
+
+
+
+
+
+<div class="jumbotron">
+    <h1 class="display-3"> Category</h1>
+     <a href="/index"> <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        reload</button> </a>
+   
+    <table class="table">
+        <thead class="thead-blue">
+            <th> ID </th>
+            <th> Name </th>
+            <th> Description </th>
+            <th> Eliminar </th>
+        </thead>
+        @foreach (var item in Model.categories)
+        {
+            <tr>
+                <td> @item.CategoryId </td>
+                <td> @item.CategoryName </td>
+                <td> @item.Description </td>
+                <td> 
+                    <form method="GET" asp-page-handler="Delete"> 
+                        <input type="hidden" name="CategoryId" value="@item.CategoryId" asp-for="CategoryId"/>
+                        <button class="btn btn-primary" type="submit">
+                            <img style="width: 40px; height: auto;" class="img-fluid" src="~/img/trash.png"  alt="Delete Button" />
+                        </button>
+                    </form> 
+                </td>
+            </tr>
+        }
+    </table>
+    <br>
+
+   
+  
+</div>
